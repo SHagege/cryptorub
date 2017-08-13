@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'cryptorub'
+
+begin
+  Object.const_get('cryptorub')
+rescue NameError
+  require 'bundler/setup'
+end
+
+
+cry = Cryptorub::Cryptorub.new
