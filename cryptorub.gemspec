@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Gem that gives you all the asset prices of your favorite cryptocurrency
                           supported by the exchange Coinbase (BTC, ETH and LTC).}
-  spec.homepage      = "TODO: https://github.com/SHagege/cryptorub."
+  spec.homepage      = "https://github.com/SHagege/cryptorub."
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

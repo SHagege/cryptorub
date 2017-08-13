@@ -1,8 +1,7 @@
 # Cryptorub
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cryptorub`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+WIP
+Trading bot that fetches price of your favorite cryptocurrency supported by the Coinbase exchange.
+Currently displays the prices of the currency you're interested in, by an intervall you choose.
 
 ## Installation
 
@@ -22,7 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Options:
+--currency: Set which cryptocurrency you're interested in (BTC/ETH/LTC)
+--intervall: Set how often you want the price to be updated
+--charts: Displays the charts for the cryptocurrency you chose
 
 ## Development
 
@@ -38,4 +40,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
