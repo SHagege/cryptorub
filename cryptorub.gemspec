@@ -38,4 +38,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "looksee", "~> 4.0.0"
   spec.add_development_dependency "coinbase", "~> 4.1.0"
   spec.add_development_dependency "ncypher", "~> 0.6.1"
+  spec.add_development_dependency "awesome_print"  
+  spec.add_development_dependency "moving_average", "~> 0.1.1"
 end
